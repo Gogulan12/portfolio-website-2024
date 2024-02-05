@@ -9,6 +9,7 @@ import jobi from "@/public/jobposter.jpg";
 import dinner from "@/public/dinner.jpg";
 import meme from "@/public/cat.jpg";
 import dayplanner from "@/public/todo.jpg";
+import hundred from "@/public/coding.jpg";
 
 export const links = [
   {
@@ -69,29 +70,46 @@ export const projectsData = [
     title: "Job Search Website",
     description:
       "Find your next career opportunity with ease by browsing through mulitiple job listings on my user-friendly job search site.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "Firebase", "HTML/CSS", "Figma", "JavaScript"],
     imageUrl: jobi,
+    livesite: "https://jobipersonalproject.netlify.app/",
+    github: "https://github.com/Gogulan12/Jobi2.0",
   },
   {
     title: "Recipes For Dinner",
     description:
       "App provides you with a wealth of delicious and creative recipes based on you dietary restrictions for your next dinner party.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["React", "HTML/CSS", "JavaScript", "API Integration", "Firebase"],
     imageUrl: dinner,
+    livesite: "https://love-in-a-time-of-allergies.netlify.app/",
+    github: "https://github.com/LoveInATimeOfAllergies/loveInATimeOfAllergies",
   },
   {
     title: "Meme Generator",
     description:
       "A fun and easy-to-use meme generator app designed using the Giphy API to search and save all you favourite memes.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["React", "HTML/CSS", "JavaScript", "API Integration"],
     imageUrl: meme,
+    livesite: "https://fanciful-pasca-29d869.netlify.app/",
+    github: "https://github.com/Gogulan12/Gogulan-Ravichandran-Project-Three",
   },
   {
-    title: "Planning Your Day",
+    title: "100 Days of Code",
     description:
-      "A simple and efficient to-do list app that helps you stay organized and is able to quickly add, edit, and complete tasks.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: dayplanner,
+      "Successfully executed 100 daily projects employing a wide range of front-end tools and languages, including modern technologies.",
+    tags: [
+      "React",
+      "Next.js",
+      "SQL",
+      "Tailwind",
+      "Framer",
+      "ThreeJs",
+      "SCSS",
+      "GSAP",
+    ],
+    imageUrl: hundred,
+    livesite: "https://github.com/Gogulan12/100DaysOfCodePersonalProjects",
+    github: "https://github.com/Gogulan12/100DaysOfCodePersonalProjects",
   },
 ] as const;
 
@@ -99,18 +117,18 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  "Firebase",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
+  "Git & GitHub",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Version Control",
+  "Responsive Design",
+  "Project Scope Management",
+  "RESTful APIs",
+  "AWS",
+  "Paired Programming",
   "PostgreSQL",
   "Python",
   "Django",
