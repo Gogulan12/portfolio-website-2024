@@ -42,11 +42,12 @@ export default function About() {
         programming. I joined a coding bootcamp and learned{" "}
         <span className="font-medium">Front End web development</span>. The part
         I <span className="underline">enjoy</span> most is solving problems.
-        It's a great feeling when I finally figure out a solution. I work with{" "}
+        It&apos;s a great feeling when I finally figure out a solution. I work
+        with{" "}
         <span className="font-medium">React, Next.js, Node.js, and AWS</span>.
-        I'm also familiar with Python and Django. I'm always eager to learn new
-        things. Right now, I'm on the lookout for a full-time software developer
-        position.
+        I&apos;m also familiar with Python and Django. I&apos;m always eager to
+        learn new things. Right now, I&apos;m on the lookout for a full-time
+        software developer position.
       </p>
       <p>
         In addition to my technical expertise, I bring a collaborative and
