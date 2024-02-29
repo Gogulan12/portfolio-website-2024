@@ -10,6 +10,7 @@ import dinner from "@/public/dinner.jpg";
 import meme from "@/public/cat.jpg";
 import dayplanner from "@/public/todo.jpg";
 import hundred from "@/public/coding.jpg";
+import programmanagement from "@public/projectmanagement.jpg";
 
 export const links = [
   {
@@ -83,6 +84,22 @@ export const projectsData = [
     imageUrl: dinner,
     livesite: "https://love-in-a-time-of-allergies.netlify.app/",
     github: "https://github.com/LoveInATimeOfAllergies/loveInATimeOfAllergies",
+  },
+  {
+    title: "Project Management Site",
+    description:
+      "Effortlessly coordinate tasks, track progress, and collaborate with your team in real-time.",
+    tags: [
+      "React",
+      "HTML/CSS",
+      "state Management",
+      "User Authentication",
+      "Firebase",
+      "FireStore",
+    ],
+    imageUrl: programmanagement,
+    livesite: "https://projectmanagementsitegr.netlify.app",
+    github: "https://github.com/Gogulan12/ProjectManagementSite",
   },
   {
     title: "Meme Generator",
