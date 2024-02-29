@@ -89,14 +89,7 @@ export const projectsData = [
     title: "Project Management Site",
     description:
       "Effortlessly coordinate tasks, track progress, and collaborate with your team in real-time.",
-    tags: [
-      "React",
-      "HTML/CSS",
-      "state Management",
-      "User Authentication",
-      "Firebase",
-      "FireStore",
-    ],
+    tags: ["React", "HTML/CSS", "User Authentication", "Firebase", "FireStore"],
     imageUrl: programmanagement,
     livesite: "https://projectmanagementsitegr.netlify.app",
     github: "https://github.com/Gogulan12/ProjectManagementSite",
