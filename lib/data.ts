@@ -10,7 +10,7 @@ import dinner from "@/public/dinner.jpg";
 import meme from "@/public/cat.jpg";
 import dayplanner from "@/public/todo.jpg";
 import hundred from "@/public/coding.jpg";
-import programmanagement from "@public/projectmanagement.jpg";
+import programmanagement from "@/public/projectmanagement.jpg";
 
 export const links = [
   {
