@@ -11,6 +11,7 @@ import meme from "@/public/cat.jpg";
 import dayplanner from "@/public/todo.jpg";
 import hundred from "@/public/coding.jpg";
 import programmanagement from "@/public/projectmanagement.jpg";
+import ecommerce from "@/public/ecommerce.jpg";
 
 export const links = [
   {
@@ -67,6 +68,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "E-Commerce Website",
+    description:
+      "Discover eco-friendly fashion & lifestyle products at Northway, where style meets sustainability effortlessly.",
+    tags: ["React", "Firebase", "Stripe", "SCSS", "Authentication"],
+    imageUrl: ecommerce,
+    livesite: "https://northwayecommerceproject.onrender.com",
+    github: "https://github.com/Gogulan12/ecommerce-website",
+  },
   {
     title: "Job Search Website",
     description:
@@ -149,4 +159,5 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Wordpress",
 ] as const;
