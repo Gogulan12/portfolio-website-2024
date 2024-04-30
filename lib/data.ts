@@ -12,6 +12,7 @@ import dayplanner from "@/public/todo.jpg";
 import hundred from "@/public/coding.jpg";
 import programmanagement from "@/public/projectmanagement.jpg";
 import ecommerce from "@/public/ecommerce.jpg";
+import realestate from "@/public/realestateCover.png";
 
 export const links = [
   {
@@ -76,6 +77,15 @@ export const projectsData = [
     imageUrl: ecommerce,
     livesite: "https://northwayecommerceproject.onrender.com",
     github: "https://github.com/Gogulan12/ecommerce-website",
+  },
+  {
+    title: "Real-Estate Website",
+    description:
+      "Experience the future of real estate with our Vite.js-powered Realtor Clone, boasting lightning-fast performance and seamless user experience.",
+    tags: ["Vite.js", "Firebase", "Geocoding API", "Tailwind CSS"],
+    imageUrl: realestate,
+    livesite: "https://realtorproject.netlify.app/",
+    github: "https://github.com/Gogulan12/realestate-project",
   },
   {
     title: "Job Search Website",
